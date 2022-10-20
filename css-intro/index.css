@@ -1,0 +1,28 @@
+.new-paragraph {
+    color: blue ;
+}
+
+p {
+   color: red !important;
+    font-family: 'Arial';
+}
+
+p a {
+    color: red;
+}
+
+div  label {
+    color: green;
+}
+
+.p1 h1 {
+    color: inherit;
+}
+body {
+    padding: 10px;
+}
+
+.p1 span {
+    color: inherit;
+    padding: inherit;
+}
