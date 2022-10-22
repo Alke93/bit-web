@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Fasthand-Regular';
+    src: url('../fonts/Fasthand-Regular.ttf');
+}
+
+body {
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: green;
+    font-family: 'Georgia, Times, serif';
+    text-shadow: 2px 2px 3px gray;
+}
+
+img {
+    float: left;
+    margin: 5px;
+    opacity: 1;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Fasthand-Regular';
+    color: yellow;
+    background-color: rgba(0,103,43, 0.8);
+}
+
+p span {
+    text-decoration: underline;
+    text-transform: capitalize;
+    
+}
+
+p::first-letter {
+    color:blue;
+}
+p::first-line {
+    text-indent: 30px;
+}
