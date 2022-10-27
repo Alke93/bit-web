@@ -1,0 +1,36 @@
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: #bbbbaa;
+    border: 2px dotted red;
+    border-radius: 60px;
+}
+
+.box p {
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+    height: 20%;
+    overflow: auto;
+    width: 75%;
+    background-color: #08d;
+    box-sizing: border-box;
+}
+
+ul {
+    -webkit-box-shadow: 11px -1px 10px 9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px -1px 10px 9px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px -1px 10px 9px rgba(0, 0, 0, 0.75);
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.example {
+    display: none;
+}
