@@ -1,0 +1,86 @@
+.unordered li {
+    list-style-type: square;
+}
+
+.unordered li:nth-child(even) {
+    list-style-type: square;
+}
+
+.unordered li:nth-child(odd) {
+    list-style-type: disc;
+}
+
+.unordered li:first-child {
+    list-style-type: none;
+}
+
+.ordered li {
+    /* list-style-type: upper-roman;
+    list-style-position: outside; */
+    list-style: outside upper-roman;
+}
+
+.ordered li:last-child {
+    list-style: inside url("https://www2.atmos.umd.edu/~chepurin/STUFF/bullets/bullet6.gif");
+    /* list-style-image: url('https://www2.atmos.umd.edu/~chepurin/STUFF/bullets/bullet6.gif'); */
+    /* list-style-position: inside; */
+    /* list-style-position: inside; */
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers {
+    border-spacing: 10px 5px;
+    border-collapse: separate;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+input {
+    font-size: 120%;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+form {
+    display: block;
+}
+
+.title {
+    text-align: right;
+    width: 100px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+input:focus {
+    background-color: #f2f2f2;
+    border: 1px solid #b1e1e4;
+}
+
+input:hover {
+    border: 1px solid #b1e1e4;
+}
+
+input#email {
+    background-image: url('../icons/icons8-circled-envelope-50.png');
+}
+
+input#twitter {
+    background-image: url('../icons/logo-twitter-png-5859-16x16.ico');
+}
