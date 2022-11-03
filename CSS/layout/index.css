@@ -1,0 +1,46 @@
+.relative {
+    position:relative;
+    left: 100px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.normal {
+    left: 100px;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
+    width: 200px;
+}
+
+
+img {
+    position: absolute;
+    z-index: -1;
+}
+
+.left {
+    float:left;
+    width: 150px
+}
+
+.right {
+    float: right;
+    width: 150px;
+}
