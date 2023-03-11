@@ -1,14 +1,11 @@
 import './App.css';
-import { HelloWorld } from './components/HelloWorld';
-import HelloWorldFunc from './components/HelloWorldFunc';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CardContainer from './components/CardContainer';
+// import { StateTest } from './components/StateTest';
 
 function App() {
-  return (
-    <div>
-      <HelloWorld />
-      <HelloWorldFunc />
-    </div>
-  );
+  // return <StateTest />;
+  return <CardContainer/>
 }
 
 export default App;
